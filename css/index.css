@@ -1,0 +1,55 @@
+
+section.banner{
+    background: url(/images/)no-repeat center center/cover;
+    padding: 0 0 70px;
+    height: 80vh;
+}
+
+section.banner .banner-img {
+    display: flex;
+    justify-content: end;
+}
+
+section.banner .banner-img img{
+    width: 80%;
+}
+
+section.banner .banner-img-hr img{
+    width: 100%;
+}
+
+
+section.banner h2
+{
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 59px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+section.banner h3
+{
+    color: #ff0000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+
+section.banner p
+{
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    text-transform: capitalize;
+    margin-top: 30px;
+}

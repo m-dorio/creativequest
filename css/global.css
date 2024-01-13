@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* rgb(255, 34, 34); */
+
+section {
+    padding: 100px 0;
+}
+
+section .wrapper {
+    max-width: calc(1921px + 5%);
+    padding: 0 5%;
+    margin: 0 auto;
+}
+
+section.banner .content{
+    max-width: 600px;
+    padding-left: 5%;
+    padding-top: 30%;
+}
