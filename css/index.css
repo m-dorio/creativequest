@@ -1,55 +1,130 @@
 
+section.banner .wrapper {
+    padding: 0;
+}
+
 section.banner{
-    background: url(/images/)no-repeat center center/cover;
-    padding: 0 0 70px;
-    height: 80vh;
+    padding: 0 0 70px !important;
+}
+
+section.banner .content{
+    max-width: 600px;
+    padding-left: 5%;
+    padding-top: 30%;
 }
 
 section.banner .banner-img {
+    background: url(/images/landing_banner.png) no-repeat center bottom/cover;
+    min-height: 85vh !important;
+    min-width: calc(1600px + 5%);
+    padding: 0 5%;
+    margin: 0 auto;
+}
+
+/* section.banner .banner-img img{
+    height: 100%;
+} */
+
+
+section.who-we-are {
+    padding: 0 0 70px !important;
+    background: url(/images/who-we-are.png) no-repeat left center/contain;
+    min-height: 100vh !important;
+    min-width: calc(1600px + 5%);
+    padding: 0 5%;
+    margin: 0 auto;
+}
+
+section.who-we-are .wrapper {
+    padding-top: 100px;
+}
+
+section.who-we-are .content{
+    padding: 0 5%;
+    padding-top: 20%;
+}
+
+
+/* section.who-we-are .container-fluid{
+    background:rgb(255, 255, 255);
+} */
+
+section.who-we-are .who-we-are-img {
     display: flex;
     justify-content: end;
+    align-items: center;
 }
 
-section.banner .banner-img img{
-    width: 80%;
+section.who-we-are .who-we-are-img img{
+    width: 60%;
+    
 }
 
-section.banner .banner-img-hr img{
+section.who-we-are .who-we-are-img-hr img{
     width: 100%;
+    margin-bottom: 60px;
 }
 
 
-section.banner h2
-{
-    color: #000;
-    font-family: 'Poppins', sans-serif;
-    font-size: 59px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 40px;
-    text-transform: capitalize;
-    margin-bottom: 5px;
+
+section.our-expertise {
+    padding: 0 0 70px !important;
+    background: url(/images/our-expertise.png) no-repeat right center/contain;
+    min-height:100vh !important;
+    min-width: calc(1600px + 5%);
+    padding: 0 5%;
+    margin: 0 auto;
 }
 
-section.banner h3
-{
-    color: #ff0000;
-    font-family: 'Poppins', sans-serif;
-    font-size: 29px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 40px;
-    text-transform: capitalize;
+section.our-expertise .wrapper {
+    padding-top: 100px;
 }
 
-section.banner p
+section.our-expertise .content{
+    padding: 0 5%;
+    padding-top: 20%;
+}
+
+section.our-expertise .content p
 {
     color: #000;
     font-family: 'Poppins', sans-serif;
     font-size: 19px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 30px;
     text-transform: capitalize;
-    margin-top: 30px;
+    margin-top: 0px !important;
+}
+
+section.our-expertise .content .content-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+section.our-expertise .content-list-item{
+    padding-right: 10%;
+    flex-direction: column;
+}
+
+
+/* section.our-expertise .container-fluid{
+    background:rgb(255, 255, 255);
+} */
+
+section.our-expertise .our-expertise-img {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+section.our-expertise .our-expertise-img img{
+    width: 60%;
+}
+
+section.our-expertise .our-expertise-img-hr img{
+    width: 100%;
+    margin-bottom: 60px;
 }
