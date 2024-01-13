@@ -64,9 +64,9 @@ section.who-we-are .who-we-are-img-hr img{
 section.our-expertise {
    
     background: url(../images/our-expertise.png) no-repeat right center/contain;
-    /* min-height:100vh !important; */
-    /* max-width: calc(1600px + 5%);
-    padding: 0 5%; */
+    min-height:100vh !important;
+    /* max-width: calc(1600px + 5%); */
+    padding: 5% 0 5%;
     margin: 0 auto;
 
 }
