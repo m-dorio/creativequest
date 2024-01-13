@@ -3,10 +3,6 @@ section.banner .wrapper {
     padding: 0;
 }
 
-section.banner{
-    padding: 0 0 70px !important;
-}
-
 section.banner .content{
     max-width: 600px;
     padding-left: 5%;
@@ -17,9 +13,9 @@ section.banner{
     padding: 0 0 70px !important;
     background: url(../images/landing_banner.png) no-repeat center bottom/cover;
     min-height:90vh !important;
-    min-width: calc(1600px + 5%);
+    max-width: calc(1600px + 5%);
     padding: 0 5%;
-    margin-bottom: 200px ;
+    border: red 10px dashed;
 }
 
 /* section.banner .banner-img img{
@@ -31,9 +27,10 @@ section.who-we-are {
     padding: 0 0 70px !important;
     background: url(../images/who-we-are.png) no-repeat left center/contain;
     min-height: 100vh !important;
-    min-width: calc(1600px + 5%);
+    max-width: calc(1600px + 5%);
     padding: 0 5%;
     margin: 0 auto;
+
 }
 
 section.who-we-are .wrapper {
@@ -41,8 +38,7 @@ section.who-we-are .wrapper {
 }
 
 section.who-we-are .content{
-    padding: 0 5%;
-    padding-top: 20%;
+    padding: 20% 5% 0;
 }
 
 
@@ -72,7 +68,7 @@ section.our-expertise {
     padding: 0 0 70px !important;
     background: url(../images/our-expertise.png) no-repeat right center/contain;
     min-height:100vh !important;
-    min-width: calc(1600px + 5%);
+    max-width: calc(1600px + 5%);
     padding: 0 5%;
     margin: 0 auto;
 }
@@ -82,13 +78,12 @@ section.our-expertise .wrapper {
 }
 
 section.our-expertise .content{
-    padding: 0 5%;
-    padding-top: 20%;
+    padding: 10% 0 5%;
 }
 
 section.our-expertise .content p
 {
-    color: #000;
+    color: #373737;
     font-family: 'Poppins', sans-serif;
     font-size: 19px;
     font-style: normal;
@@ -128,4 +123,78 @@ section.our-expertise .our-expertise-img img{
 section.our-expertise .our-expertise-img-hr img{
     width: 100%;
     margin-bottom: 60px;
+}
+
+
+
+section.works .wrapper {
+    padding: 0;
+}
+
+section.works{
+    padding: 0 0 70px !important;
+}
+
+section.works .content{
+    max-width: 600px;
+    padding: 30% 0 5%;
+}
+
+section.works{
+    padding: 0 0 70px !important;
+    background: url(../images/works.png) no-repeat center center/cover;
+    min-height:90vh !important;
+    max-width: calc(1600px + 5%);
+    padding: 0 5%;
+    margin-bottom: 200px ;
+}
+
+
+
+section.events-activation {
+    padding: 0 0 70px !important;
+    background: url() no-repeat right center/contain;
+    min-height:100vh !important;
+    max-width: calc(1600px + 5%);
+    padding: 0 5%;
+    margin: 0 auto;
+}
+
+section.events-activation .wrapper {
+    padding-top: 100px;
+}
+
+section.events-activation .content{
+    padding: 80px 0;
+}
+
+section.events-activation .col-xl-4.col-lg-12:nth-child(1), 
+section.events-activation .col-xl-4.col-lg-12:nth-child(3),
+section.events-activation .col-xl-4.col-lg-12:nth-child(4), 
+section.events-activation .col-xl-4.col-lg-12:nth-child(6){
+    padding: 40px 10px 0;
+}
+
+section.events-activation .content-header{
+    align-content: center;
+    text-align: center;
+   
+}
+
+section.events-activation .content p{
+    color: #373737;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+
+section.events-activation .content-list-item .events-gallery-img{
+    padding-bottom: 20px !important;
+}
+
+section.events-activation .content-list-item .events-gallery-img img{
+    width: 100%;
 }
