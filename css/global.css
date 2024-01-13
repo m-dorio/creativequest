@@ -6,15 +6,13 @@
 
 /* rgb(255, 34, 34); */
 
-section {
+/* section {
     padding: 100px 0 !important;
-    /* background:rgb(252, 252, 252); */
-}
+} */
 
 section .wrapper {
     max-width: calc(1921px + 5%);
     padding: 0 5%;
-    margin: 0 auto;
 }
 
 section .content h2
