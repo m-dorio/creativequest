@@ -13,12 +13,13 @@ section.banner .content{
     padding-top: 30%;
 }
 
-section.banner .banner-img {
-    background: url(/images/landing_banner.png) no-repeat center bottom/cover;
-    min-height: 85vh !important;
+section.banner{
+    padding: 0 0 70px !important;
+    background: url(../images/landing_banner.png) no-repeat center bottom/cover;
+    min-height:90vh !important;
     min-width: calc(1600px + 5%);
     padding: 0 5%;
-    margin: 0 auto;
+    margin-bottom: 200px ;
 }
 
 /* section.banner .banner-img img{
@@ -28,7 +29,7 @@ section.banner .banner-img {
 
 section.who-we-are {
     padding: 0 0 70px !important;
-    background: url(/images/who-we-are.png) no-repeat left center/contain;
+    background: url(../images/who-we-are.png) no-repeat left center/contain;
     min-height: 100vh !important;
     min-width: calc(1600px + 5%);
     padding: 0 5%;
@@ -69,7 +70,7 @@ section.who-we-are .who-we-are-img-hr img{
 
 section.our-expertise {
     padding: 0 0 70px !important;
-    background: url(/images/our-expertise.png) no-repeat right center/contain;
+    background: url(../images/our-expertise.png) no-repeat right center/contain;
     min-height:100vh !important;
     min-width: calc(1600px + 5%);
     padding: 0 5%;

@@ -3,8 +3,12 @@
 {
     width: 100%;
     justify-content: space-around;
+
 }
 
+/* .navbar.navbar-expand-xl.bg-white ul.navbar-nav .bg-white{
+  background-color: #000 !important;
+} */
 /* .navbar.navbar-expand-xl.bg-white ul.navbar-nav .nav-link {
     display: flex;
     align-items: center;
