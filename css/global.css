@@ -11,6 +11,18 @@ section {
     /* max-width: calc(1600px + 5%); */
 }
 
+section img {
+    overflow: hidden;
+    transition: transform 0.5s ease;
+    position: relative;
+}
+
+section img:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+}
+
+
 section .wrapper {
 
     padding: 0 5%;

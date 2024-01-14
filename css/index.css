@@ -156,16 +156,23 @@ section.events-activation .wrapper {
     padding-bottom: 200px;
 }
 
-section.events-activation .content{
-  
-}
-
-section.events-activation .col-md-4:nth-child(1), 
-section.events-activation .col-md-4:nth-child(3),
-section.events-activation .col-md-4:nth-child(4), 
-section.events-activation .col-md-4:nth-child(6){
+section.events-activation .col-md-6.col-lg-4{
     padding: 40px 10px 0;
 }
+
+section.events-activation .events-gallery-img img{
+    width: 100%;
+    max-width: 460px;
+    max-height: 400px;
+}
+
+
+/* section.events-activation .col-md-6.col-lg-4:nth-child(1), 
+section.events-activation .col-md-6.col-lg-4:nth-child(3),
+section.events-activation .col-md-6.col-lg-4:nth-child(4), 
+section.events-activation .col-md-6.col-lg-4:nth-child(6){
+    padding: 40px 10px 0;
+} */
 
 section.events-activation .content-header{
     align-content: center;
@@ -185,10 +192,6 @@ section.events-activation .content p{
 
 section.events-activation .content-list-item .events-gallery-img{
     margin-bottom: 20px !important;
-}
-
-section.events-activation .content-list-item .events-gallery-img img{
-    width: 100%;
 }
 
 
@@ -213,7 +216,12 @@ section.creatives-multimedia .content{
 
 section.creatives-multimedia .creatives-multimedia-gallery-img img{
     width: 100%;
-    margin-bottom: 10px !important;
+    max-width: 460px;
+    max-height: 400px;
+}
+
+section.creatives-multimedia .content-subtitle{
+    padding-top: 20px;
 }
 
 section.creatives-multimedia .content-header{
@@ -221,8 +229,6 @@ section.creatives-multimedia .content-header{
     text-align: center;
     padding: 80px 0;
 }
-
-section.creatives-multimedia-gallery-img
 
 section.creatives-multimedia .content .content-container .content-list {
 
@@ -281,6 +287,13 @@ section.digital .content .content-container .content-list {
     section.our-expertise .our-expertise-img-hr img {
 
     }
+
+    /* section.events-activation .col-md-6.col-lg-4:nth-child(1), 
+    section.events-activation .col-md-6.col-lg-4:nth-child(3),
+    section.events-activation .col-md-6.col-lg-4:nth-child(4), 
+    section.events-activation .col-md-6.col-lg-4:nth-child(6){
+        padding: 40px 10px 0;
+    } */
 
 }
 
