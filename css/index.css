@@ -89,16 +89,19 @@ section.our-expertise .content p
 
 section.our-expertise .content .content-container{
     display: flex;
-    align-items: center;
+    align-items: start !important;
     justify-content: center;
+}
 
+section.our-expertise .content .content-container h4{
+    font-size: 24px;
+    line-height: 34px;
 }
 
 section.our-expertise .content-list-item{
-    padding-right: 10%;
     flex-direction: column;
+    padding: 0 10px 10px;
 }
-
 
 /* section.our-expertise .container-fluid{
     background:rgb(255, 255, 255);
@@ -117,7 +120,7 @@ section.our-expertise .our-expertise-img img{
 
 section.our-expertise .our-expertise-img-hr img{
     width: 100%;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 
@@ -157,10 +160,10 @@ section.events-activation .content{
   
 }
 
-section.events-activation .col-xl-4.col-lg-12:nth-child(1), 
-section.events-activation .col-xl-4.col-lg-12:nth-child(3),
-section.events-activation .col-xl-4.col-lg-12:nth-child(4), 
-section.events-activation .col-xl-4.col-lg-12:nth-child(6){
+section.events-activation .col-md-4:nth-child(1), 
+section.events-activation .col-md-4:nth-child(3),
+section.events-activation .col-md-4:nth-child(4), 
+section.events-activation .col-md-4:nth-child(6){
     padding: 40px 10px 0;
 }
 
@@ -272,7 +275,11 @@ section.digital .content .content-container .content-list {
         background: url(../images/our-expertise.png) no-repeat right center/contain;
     }
     section.our-expertise .content{
-        padding: 10% 5% 5%;
+        padding: 20% 5% 5%;
+    }
+
+    section.our-expertise .our-expertise-img-hr img {
+
     }
 
 }
