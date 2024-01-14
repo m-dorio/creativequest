@@ -36,7 +36,7 @@
     display: block;
     position: relative;
     padding: 0.7em 2.4em;
-    font-size: 26px;
+    font-size: 20px;
     background: transparent;
     cursor: pointer;
     user-select: none;
@@ -55,20 +55,21 @@
     height: 100%;
     background: transparent;
     z-index: -1;
-    border: 2px solid rgb(255, 34, 34);
+    border: 1px solid rgb(255, 255, 255);
   }
   
   .navbar.navbar-expand-xl.bg-dark ul.navbar-nav .nav-link span::before {
     content: "";
     display: block;
     position: absolute;
-    width: 5%;
+    width: 10%;
     height: 1000%;
-    background: rgba(237, 237, 237, 0.378);
-    top: 50%;
-    left: 0;
+    background: rgba(67, 67, 67, 0.378);
+    top: 30%;
+    left: 10%;
     transform: translate(-50%, -50%) rotate(-60deg);
     transition: all 0.3s;
+    border: 1px dashed rgb(81, 81, 81);
   }
   
   .navbar.navbar-expand-xl.bg-dark ul.navbar-nav .nav-link:hover span::before {
@@ -82,7 +83,7 @@
   }
   
   .navbar.navbar-expand-xl.bg-dark ul.navbar-nav .nav-link:active span::before {
-    background: #cd2727;
+    background: rgb(255, 34, 34);
   }
 
   @media only screen and (max-width:1601px) {
