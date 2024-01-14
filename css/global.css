@@ -6,9 +6,10 @@
 
 /* rgb(255, 34, 34); */
 
-/* section {
-    padding: 100px 0 !important;
-} */
+section {
+    /* padding: 100px 0 !important; */
+    /* max-width: calc(1600px + 5%); */
+}
 
 section .wrapper {
 
