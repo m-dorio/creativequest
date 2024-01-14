@@ -10,13 +10,12 @@ section.banner .content{
 }
 
 section.banner{
-   
     background: url(../images/landing_banner.png) no-repeat center bottom/cover;
     min-height:90vh !important;
     /* max-width: calc(1600px + 5%);
     padding: 0 5%; */
     margin: 0 auto;
-    border: red 5px dashed;
+    border-bottom: rgb(44, 44, 44) 5px dashed;
 }
 
 /* section.banner .banner-img img{
@@ -25,19 +24,20 @@ section.banner{
 
 
 section.who-we-are {
-   
-    background: url(../images/who-we-are.png) no-repeat left center/contain;
+    /* background: url(../images/who-we-are.png) no-repeat left center/contain; */
     min-height: 100vh !important;
-    /* max-width: calc(1600px + 5%);
-    padding: 0 5%; */
+    /* max-width: calc(1600px + 5%); */
     margin: 0 auto;
     border-bottom: 5px dashed rgb(44, 44, 44);
+    overflow: hidden;
+    position: relative;
 }
+
 
 section.who-we-are .content{
-    padding: 30% 0 5%;
+    position: relative;
+    z-index: 1;
 }
-
 
 /* section.who-we-are .container-fluid{
     background:rgb(255, 255, 255);
@@ -45,14 +45,14 @@ section.who-we-are .content{
 
 section.who-we-are .who-we-are-img {
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
 }
-/* 
+
 section.who-we-are .who-we-are-img img{
-    width: 60%;
-    
-} */
+    padding: 30% 0 5%;
+    width: 400px;
+}
 
 section.who-we-are .who-we-are-img-hr img{
     width: 100%;
@@ -60,20 +60,19 @@ section.who-we-are .who-we-are-img-hr img{
 }
 
 
-
 section.our-expertise {
-   
-    background: url(../images/our-expertise.png) no-repeat right center/contain;
+    /* background: url(../images/our-expertise.png) no-repeat right center/contain; */
     min-height:100vh !important;
     /* max-width: calc(1600px + 5%); */
-    padding: 5% 0 5%;
     margin: 0 auto;
-
+    overflow: hidden;
+    position: relative;
 }
 
 section.our-expertise .content{
     padding: 10% 0 5%;
- 
+    position: relative;
+    z-index: 1;
 }
 
 section.our-expertise .content p
@@ -105,14 +104,15 @@ section.our-expertise .content-list-item{
     background:rgb(255, 255, 255);
 } */
 
-section.our-expertise .our-expertise-img {
+section.our-expertise .our-expertise-img .img {
     display: flex;
-    justify-content: end;
+    justify-content: center !important;
     align-items: center;
 }
 
 section.our-expertise .our-expertise-img img{
-    width: 60%;
+    padding: 10% 0 5%;
+    width: 200%;
 }
 
 section.our-expertise .our-expertise-img-hr img{
@@ -138,6 +138,7 @@ section.works{
     padding: 0 5%; */
     margin: 0 auto;
     border: red 5px dashed;
+    /* background-clip: border-box; */
 }
 
 
@@ -189,6 +190,8 @@ section.events-activation .content-list-item .events-gallery-img img{
 
 
 section.creatives-multimedia{
+    margin: 0 auto;
+    border-bottom: 5px dashed rgb(44, 44, 44);
 }
 
 section.creatives-multimedia .container-fluid{
@@ -224,6 +227,8 @@ section.creatives-multimedia .content .content-container .content-list {
 
 
 section.digital {
+    margin: 0 auto;
+    border-bottom: 5px dashed rgb(44, 44, 44);
 }
 
 section.digital .content{
@@ -253,4 +258,163 @@ section.digital-gallery-img
 
 section.digital .content .content-container .content-list {
 
+}
+
+@media only screen and (max-width:1600px) {
+    section.who-we-are{
+        background: url(../images/who-we-are.png) no-repeat left center/contain;
+    }
+    section.who-we-are .content{
+        padding: 40% 5% 5%;
+    }
+
+    section.our-expertise{
+        background: url(../images/our-expertise.png) no-repeat right center/contain;
+    }
+    section.our-expertise .content{
+        padding: 10% 5% 5%;
+    }
+
+}
+
+@media only screen and (max-width:1199px) {
+
+    section.who-we-are{
+        background: url() no-repeat left center/contain;
+    }
+
+    section.who-we-are .blurred-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url(../images/who-we-are.png) no-repeat left center/cover;
+        opacity: 0.1;
+        filter: blur(5px);
+    }
+
+    section.who-we-are .content{
+        padding: 20% 5% 5%;
+        position: relative;
+        z-index: 1;
+    }
+
+
+    section.our-expertise{
+        background: url() no-repeat left center/contain;
+    }
+
+    section.our-expertise .blurred-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url(../images/our-expertise.png) no-repeat left center/cover;
+        opacity: 0.1;
+        filter: blur(5px);
+    }
+
+    section.our-expertise .content{
+        padding: 20% 5% 5%;
+        position: relative;
+        z-index: 1;
+    }
+
+    section.our-expertise .our-expertise-img img{
+        padding: 10% 0 5%;
+        height: 50%;
+    }
+}
+  
+@media only screen and (max-width:900px) {
+    section.who-we-are .content{
+        padding: 35% 0 5%;
+    }
+    section.who-we-are .who-we-are-img img{
+        padding: 50% 0 5%;
+        width: 350px;
+    }
+    section.who-we-are .who-we-are-img-hr img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    section.our-expertise .content{
+        padding: 25% 0 5%;
+    }
+    section.our-expertise .our-expertise-img img{
+        padding: 50% 0 5%;
+        width: 350px;
+    }
+    section.our-expertise .our-expertise-img-hr img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media only screen and (max-width:800px) {
+
+    section.banner{
+        background: url(../images/landing_banner.png) no-repeat center center/120% 100%;
+        background-color: black;
+    }
+
+    section.who-we-are .content{
+        padding: 50% 0 5%;
+    }
+    section.who-we-are .who-we-are-img img{
+        padding: 50% 0 5%;
+        width: 350px;
+    }
+    section.who-we-are .who-we-are-img-hr img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    section.works{
+        background: url(../images/works.png) no-repeat center center/120% 100%;
+        background-color: black;
+    }
+}
+
+@media only screen and (max-width:769px) {
+    section.who-we-are .content{
+        padding: 40% 0 5%;
+    }
+    section.who-we-are .who-we-are-img img{
+        padding: 10% 0 5%;
+        width: 350px;
+    }
+    section.who-we-are .who-we-are-img-hr img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media only screen and (max-width:576px) {
+    section.banner{
+        background: url(../images/landing_banner.png) no-repeat center center/120% 100%;
+        background-color: black;
+    }
+
+    section.who-we-are .content{
+      padding: 50% 0 5%;
+    }
+    section.who-we-are .who-we-are-img img{
+        padding: 10% 0 5%;
+        width: 400px;
+    }
+    section.who-we-are .who-we-are-img-hr img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    section.works{
+        background: url(../images/works.png) no-repeat center center/120% 100%;
+        background-color: black;
+    }
 }
