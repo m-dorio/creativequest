@@ -1,0 +1,181 @@
+
+@media only screen and (max-width:2560px) {
+    section.who-we-are{
+        background: url(../images/who-we-are.png) no-repeat left center/contain;
+    }
+    section.who-we-are .content{
+        padding: 40% 5% 5%;
+    }
+    section.our-expertise{
+        background: url(../images/our-expertise.png) no-repeat right center/contain;
+    }
+    section.our-expertise .content{
+        padding: 20% 5% 5%;
+    }
+    section.works .works-img img{
+        width: 120%;
+        object-fit: fill;
+     }
+}
+
+@media only screen and (max-width:1199px) {
+    section.banner .bg-text {
+        top: 60%;
+        left: 50%;
+    }
+    section.banner .banner-img img{
+        max-height: 400px;
+    }
+    section.who-we-are{
+        background: url() no-repeat left center/contain;
+    }
+    section.who-we-are .blurred-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url(../images/who-we-are.png) no-repeat left center/cover;
+        opacity: 0.1;
+        filter: blur(5px);
+    }
+    section.who-we-are .content{
+        padding: 20% 5% 5%;
+        position: relative;
+        z-index: 1;
+    }
+    section.our-expertise{
+        background: url() no-repeat left center/contain;
+    }
+    section.our-expertise .blurred-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url(../images/our-expertise.png) no-repeat left center/cover;
+        opacity: 0.1;
+        filter: blur(5px);
+    }
+    section.our-expertise .content{
+        padding: 20% 5% 5%;
+        position: relative;
+        z-index: 1;
+    }
+    section.our-expertise .our-expertise-img img{
+        padding: 10% 0 5%;
+        height: 50%;
+    }
+    section.works .works-img img{
+        width: 150%;
+        object-fit: fill;
+    }
+     section.events-activation .content-header{
+        padding: 80px 0 40px 0;
+    }
+    section.creatives-multimedia .content-header{
+        padding: 80px 0 40px 0;
+    }
+    section.digital .content-header{
+        padding: 80px 0 40px 0;
+    }
+}
+  
+@media only screen and (max-width:900px) {
+    section.who-we-are .content{
+        padding: 35% 0 5%;
+    }
+    section.who-we-are .who-we-are-img img{
+        padding: 50% 0 5%;
+        width: 350px;
+    }
+    section.who-we-are .who-we-are-img-hr img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    section.our-expertise .content{
+        padding: 25% 0 5%;
+    }
+    section.our-expertise .our-expertise-img img{
+        padding: 50% 0 5%;
+        width: 350px;
+    }
+    section.our-expertise .our-expertise-img-hr img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    section.banner{
+        background: url(../images/landing_banner.png) no-repeat center center/120% 100%;
+        background-color: black;
+    }
+    section.who-we-are .content{
+        padding: 50% 0 5%;
+    }
+    section.who-we-are .who-we-are-img img{
+        padding: 50% 0 5%;
+        width: 350px;
+    }
+    section.who-we-are .who-we-are-img-hr img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    section.works{
+        background-color: black;
+    }
+}
+
+@media only screen and (max-width:769px) {
+    section.who-we-are .content{
+        padding: 40% 0 5%;
+    }
+    section.who-we-are .who-we-are-img img{
+        padding: 10% 0 5%;
+        width: 350px;
+    }
+    section.who-we-are .who-we-are-img-hr img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    section.works .works-img img{
+        width: 200%;
+        object-fit: fill;
+    }
+     section.events-activation .events-gallery-img img{
+        width: 100%;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    section.creatives-multimedia .creatives-multimedia-gallery-img img{
+        width: 100%;
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    section.banner{
+        background: url(../images/landing_banner.png) no-repeat center center/120% 100%;
+        background-color: black;
+    }
+    section.who-we-are .content{
+      padding: 50% 0 5%;
+    }
+    section.who-we-are .who-we-are-img img{
+        padding: 10% 0 5%;
+        width: 400px;
+    }
+    section.who-we-are .who-we-are-img-hr img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    section.works{
+        background-color: black;
+    }
+    section.works .works-img img{
+        width: 180%;
+        object-fit: fill;
+    }
+}

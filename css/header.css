@@ -14,22 +14,6 @@
     border-bottom: 1px dashed rgb(44, 44, 44);
 }
 
-/* .navbar.navbar-expand-xl.bg-dark ul.navbar-nav .  .bg-dark{
-  background-color: #000 !important;
-} */
-/* .navbar.navbar-expand-xl.bg-dark ul.navbar-nav .nav-link {
-    display: flex;
-    align-items: center;
-    gap: 0 14px;
-    color: #000;
-    text-align: center;
-    font-family: "Sora", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding: 36px 0;
-} */
 
 .navbar.navbar-expand-xl.bg-dark ul.navbar-nav .nav-link {
     border: none;

@@ -4,23 +4,18 @@ section.banner .content{
     padding-left: 5%;
     padding-top: 30%;
 }
-
 section.banner .col-xl-12.col-lg-12{
     padding: 0 !important;
 }
-
 section .events-gallery-img img, .creatives-multimedia-gallery-img img, .digital-gallery-img img {
     overflow: hidden;
     transition: transform 0.5s ease;
     position: relative;
 }
-
 section .events-gallery-img img:hover,  .creatives-multimedia-gallery-img img:hover, .digital-gallery-img img:hover{
     transform: scale(1.1);
     transition: transform 0.5s ease;
 }
-
-
 section.banner{
     margin: 20px auto 20px auto;
 }
@@ -29,22 +24,17 @@ section.banner .wrapper{
     padding: 0 !important;
 }
 section.banner .bg-image {
-    /* The image used */
     background-image: url("../images/landing_banner.png");
-    /* Add the blur effect */
     filter: blur(5px);
     -webkit-filter: blur(5px);
-    /* Full height */
     min-height: 800px;
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
-
+}
 section.banner .bg-text {
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
     color: white;
     font-weight: bold;
     border: 1px solid #515151;
@@ -59,7 +49,7 @@ section.banner .bg-text {
     text-align: center;
 }
 section.banner .bg-text h1{
-margin: 30px 0;
+    margin: 30px 0;
 }
 
 section.banner .banner-img img{
@@ -68,64 +58,42 @@ section.banner .banner-img img{
     max-height: 550px;
     border-radius: 20px;
 }
-
-/* section.banner .banner-img img{
-    height: 100%;
-} */
-
 section.who-we-are {
-    /* background: url(../images/who-we-are.png) no-repeat left center/contain; */
     min-height: 100vh !important;
-    /* max-width: calc(1600px + 5%); */
     margin: 0 auto;
     border-top: 5px dashed rgb(44, 44, 44);
     border-bottom: 5px dashed rgb(44, 44, 44);
     overflow: hidden;
     position: relative;
 }
-
-
 section.who-we-are .content{
     position: relative;
     z-index: 1;
 }
-
-/* section.who-we-are .container-fluid{
-    background:rgb(255, 255, 255);
-} */
-
 section.who-we-are .who-we-are-img {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 section.who-we-are .who-we-are-img img{
     padding: 30% 0 5%;
     width: 400px;
 }
-
 section.who-we-are .who-we-are-img-hr img{
     width: 100%;
     margin-bottom: 60px;
 }
-
-
 section.our-expertise {
-    /* background: url(../images/our-expertise.png) no-repeat right center/contain; */
     min-height:100vh !important;
-    /* max-width: calc(1600px + 5%); */
     margin: 0 auto;
     overflow: hidden;
     position: relative;
 }
-
 section.our-expertise .content{
     padding: 10% 0 5%;
     position: relative;
     z-index: 1;
 }
-
 section.our-expertise .content p
 {
     color: #373737;
@@ -137,66 +105,45 @@ section.our-expertise .content p
     text-transform: capitalize;
     margin-top: 0px !important;
 }
-
 section.our-expertise .content .content-container{
     display: flex;
     align-items: start !important;
     justify-content: center;
 }
-
 section.our-expertise .content .content-container h4{
     font-size: 24px;
     line-height: 34px;
 }
-
 section.our-expertise .content-list-item{
     flex-direction: column;
     padding: 0 10px 10px;
 }
-
-/* section.our-expertise .container-fluid{
-    background:rgb(255, 255, 255);
-} */
-
 section.our-expertise .our-expertise-img .img {
     display: flex;
     justify-content: center !important;
     align-items: center;
 }
-
 section.our-expertise .our-expertise-img img{
     padding: 10% 0 5%;
     width: 200%;
 }
-
 section.our-expertise .our-expertise-img-hr img{
     width: 100%;
     margin-bottom: 30px;
 }
-
-
-
 section.works{
-   
-    /* background: url(../images/works.png) no-repeat center center/cover; */
     min-height:100vh !important;
-    /* max-width: calc(1600px + 5%);
-    padding: 0 5%; */
     margin: 0 auto;
     border: rgb(43, 43, 43) 5px dashed;
-    /* background-clip: border-box; */
     background-color: black;
 }
-
 section.works .col-md-12{
     padding: 0 !important;
 }
-
 section.works .content{
     max-width: 600px;
     padding: 30% 0 5%;
 }
-
 section.works .works-img{
     display: flex !important;
     flex-direction: column;
@@ -204,47 +151,31 @@ section.works .works-img{
     justify-content: center;
     max-width: 100%;
     overflow: hidden;
- }
-
+}
 section.works .works-img img{
    width: 100%;
    height: 100%;
    min-height: 800px;
    object-fit: fill;
 }
-
-
 section.events-activation {
     background: url(../images/creatives-multimedia-bg.png) no-repeat right bottom/contain;
-    /* min-height:100vh !important; */
     margin: 0 auto;
     border-bottom: 5px dashed rgb(44, 44, 44);
 }
-
 section.events-activation .wrapper {
     padding-bottom: 200px;
 }
-
 section.events-activation .events-gallery-img img{
     width: 100%;
     max-width: 460px;
     max-height: 400px;
 }
-
-
-/* section.events-activation .col-md-6.col-lg-4:nth-child(1), 
-section.events-activation .col-md-6.col-lg-4:nth-child(3),
-section.events-activation .col-md-6.col-lg-4:nth-child(4), 
-section.events-activation .col-md-6.col-lg-4:nth-child(6){
-    padding: 40px 10px 0;
-} */
-
 section.events-activation .content-header{
     align-content: center;
     text-align: center;
     padding: 80px 0;
 }
-
 section.events-activation .content p{
     color: #373737;
     font-family: 'Poppins', sans-serif;
@@ -254,31 +185,23 @@ section.events-activation .content p{
     line-height: 25px;
     text-transform: capitalize;
 }
-
 section.events-activation .content-list-item .events-gallery-img{
     margin-bottom: 20px !important;
 }
-
-
 section.creatives-multimedia{
     margin: 0 auto;
     border-bottom: 5px dashed rgb(44, 44, 44);
 }
-
 section.creatives-multimedia .container-fluid{
     background: url(../images/creatives-multimedia-bg.png) no-repeat right bottom/contain;
-    /* min-height:100vh !important; */
     margin: 0 auto;
 }
-
 section.creatives-multimedia .wrapper {
     padding-bottom: 200px;
 }
-
 section.creatives-multimedia .content{
     margin-bottom: 0px;
 }
-
 section.creatives-multimedia .creatives-multimedia-gallery-img img{
     width: 100%;
     max-width: 460px;
@@ -294,19 +217,9 @@ section.creatives-multimedia .content-header{
     text-align: center;
     padding: 80px 0;
 }
-
-section.creatives-multimedia .content .content-container .content-list {
-
-}
-
-
 section.digital {
     margin: 0 auto;
     border-bottom: 5px dashed rgb(44, 44, 44);
-}
-
-section.digital .content{
-  
 }
 section.digital .container-fluid{
     background: url(../images/creatives-multimedia-bg.png) no-repeat right bottom/contain;
@@ -326,222 +239,7 @@ section.digital .content-header{
     text-align: center;
     padding: 80px 0;
 }
-
 section.events-activation .col-md-6.col-lg-4, section.creatives-multimedia .col-md-6.col-lg-4, section.digital .col-md-6.col-lg-4{
     margin: 0 0 30px 0 ;
     padding: 15px;
-}
-
-
-@media only screen and (max-width:2560px) {
-    section.who-we-are{
-        background: url(../images/who-we-are.png) no-repeat left center/contain;
-    }
-    section.who-we-are .content{
-        padding: 40% 5% 5%;
-    }
-
-    section.our-expertise{
-        background: url(../images/our-expertise.png) no-repeat right center/contain;
-    }
-    section.our-expertise .content{
-        padding: 20% 5% 5%;
-    }
-
-    section.works .works-img img{
-        width: 120%;
-        object-fit: fill;
-     }
-}
-
-@media only screen and (max-width:1199px) {
-
-    section.banner .bg-text {
-        top: 60%;
-        left: 50%;
-    }
-
-    section.banner .banner-img img{
-        max-height: 400px;
-    }
-
-    section.who-we-are{
-        background: url() no-repeat left center/contain;
-    }
-
-    section.who-we-are .blurred-background {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: url(../images/who-we-are.png) no-repeat left center/cover;
-        opacity: 0.1;
-        filter: blur(5px);
-    }
-
-    section.who-we-are .content{
-        padding: 20% 5% 5%;
-        position: relative;
-        z-index: 1;
-    }
-
-
-    section.our-expertise{
-        background: url() no-repeat left center/contain;
-    }
-
-    section.our-expertise .blurred-background {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: url(../images/our-expertise.png) no-repeat left center/cover;
-        opacity: 0.1;
-        filter: blur(5px);
-    }
-
-    section.our-expertise .content{
-        padding: 20% 5% 5%;
-        position: relative;
-        z-index: 1;
-    }
-
-    section.our-expertise .our-expertise-img img{
-        padding: 10% 0 5%;
-        height: 50%;
-    }
-
-    section.works .works-img img{
-        width: 150%;
-        object-fit: fill;
-    }
-
-     section.events-activation .content-header{
-        padding: 80px 0 40px 0;
-    }
-
-    section.creatives-multimedia .content-header{
-        padding: 80px 0 40px 0;
-    }
-    section.digital .content-header{
-        padding: 80px 0 40px 0;
-    }
-    
-}
-  
-@media only screen and (max-width:900px) {
-    section.who-we-are .content{
-        padding: 35% 0 5%;
-    }
-    section.who-we-are .who-we-are-img img{
-        padding: 50% 0 5%;
-        width: 350px;
-    }
-    section.who-we-are .who-we-are-img-hr img{
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    section.our-expertise .content{
-        padding: 25% 0 5%;
-    }
-    section.our-expertise .our-expertise-img img{
-        padding: 50% 0 5%;
-        width: 350px;
-    }
-    section.our-expertise .our-expertise-img-hr img{
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-}
-
-@media only screen and (max-width:800px) {
-
-    section.banner{
-        background: url(../images/landing_banner.png) no-repeat center center/120% 100%;
-        background-color: black;
-    }
-
-    section.who-we-are .content{
-        padding: 50% 0 5%;
-    }
-    section.who-we-are .who-we-are-img img{
-        padding: 50% 0 5%;
-        width: 350px;
-    }
-    section.who-we-are .who-we-are-img-hr img{
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    section.works{
-        /* background: url(../images/works.png) no-repeat center center/contain; */
-        background-color: black;
-    }
-    
-
-}
-
-@media only screen and (max-width:769px) {
-    section.who-we-are .content{
-        padding: 40% 0 5%;
-    }
-    section.who-we-are .who-we-are-img img{
-        padding: 10% 0 5%;
-        width: 350px;
-    }
-    section.who-we-are .who-we-are-img-hr img{
-        width: 100%;
-        margin-bottom: 20px;
-    }
-    section.works .works-img img{
-        width: 200%;
-        object-fit: fill;
-     }
-
-     section.events-activation .events-gallery-img img{
-        width: 100%;
-        max-width: 100%;
-        max-height: 100%;
-    }
-
-    section.creatives-multimedia .creatives-multimedia-gallery-img img{
-        width: 100%;
-        max-width: 100%;
-        max-height: 100%;
-    }
-    
-}
-
-
-@media only screen and (max-width:576px) {
-    section.banner{
-        background: url(../images/landing_banner.png) no-repeat center center/120% 100%;
-        background-color: black;
-    }
-
-    section.who-we-are .content{
-      padding: 50% 0 5%;
-    }
-    section.who-we-are .who-we-are-img img{
-        padding: 10% 0 5%;
-        width: 400px;
-    }
-    section.who-we-are .who-we-are-img-hr img{
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    section.works{
-        /* background: url(../images/works.png) no-repeat center center/120% 100%; */
-        background-color: black;
-    }
-
-    section.works .works-img img{
-        width: 180%;
-        object-fit: fill;
-     }
 }
